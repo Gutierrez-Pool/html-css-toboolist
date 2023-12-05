@@ -1,39 +1,44 @@
 * {
-    
+
     box-sizing: border-box;
     margin: 0;
 }
 
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
 }
-/* navbar */
 
+
+
+/* navbar */
 h1 {
     display: inline-block;
     font-size: 3em;
     margin-block: 0px;
 }
 
-#logo{
+#logo {
     vertical-align: middle;
 }
 
-
 /* Fine navbar */
 
-.container{
+
+
+.container {
     width: auto;
     background-color: white;
     border-top: #f6f8f9 50px solid;
     border-inline: #f6f8f9 300px solid;
     border-bottom: #f6f8f9 20px solid;
-
 }
 
-/* Tasti */
 
+
+/* Tasti */
 header {
+    font-size: small;
     padding: 20px;
     border-bottom: #f6f8f9 3px solid;
 }
@@ -41,16 +46,18 @@ header {
 .tasto-blu {
     background-color: dodgerblue;
     color: white;
-    border-radius: 5px;
-    padding: 8px;
 }
 
 .tasto-bianco {
     background-color: white;
     color: gray;
+    border: gray 1px solid;
+}
+
+.tasto-blu,
+.tasto-bianco {
     border-radius: 5px;
     padding: 8px;
-    border: gray 1px solid;
 }
 
 /* Fine Tasti */
@@ -59,42 +66,46 @@ header {
 
 /* Task */
 
+.prova {
+    margin-inline: 40px;
+    margin-bottom: 40px;
+}
+
 h2 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
 .check {
-    font-size: small;
     color: lightgreen;
-    background-color: white;
-    border-radius: 50%;
     border: lightgreen 1px solid;
 }
 
 .cross {
-    font-size: small;
     color: red;
-    background-color: white;
-    border-radius: 50%;
     border: red 1px solid;
 }
 
-.prova{
-    margin-inline: 40px;
-    margin-bottom: 40px;
+.check,
+.cross {
+    font-size: x-small;
+    padding: 2px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.task{
+.task {
     margin-bottom: 10px;
 }
+
 /* Task */
 
 
 
 /* Etichette */
 
-.etichetta{
+.etichetta {
     font-size: x-small;
     color: white;
     border-radius: 7px;
@@ -105,22 +116,24 @@ h2 {
     background-color: dodgerblue;
 }
 
-.goals{
+.goals {
     background-color: purple;
 }
 
-.recruiting{
+.recruiting {
     background-color: lightseagreen;
 }
-.mobile{
+
+.mobile {
     background-color: lightsalmon;
 }
 
-.website{
+.website {
     background-color: fuchsia;
 }
 
-.sales{
+.sales {
     background-color: lightgreen;
 }
+
 /* Fine etichette */
