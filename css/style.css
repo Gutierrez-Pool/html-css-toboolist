@@ -7,7 +7,14 @@ h1 {
 
 /* Fine navbar */
 
+.container{
+    width: auto;
+    background-color: white;
+    border-top: #f6f8f9 50px solid;
+    border-inline: #f6f8f9 400px solid;
+    border-bottom: #f6f8f9 20px solid;
 
+}
 
 /* Tasti */
 
@@ -49,16 +56,6 @@ h2 {
     border: lightgreen 1px solid;
 }
 
-.editorial {
-    font-size: x-small;
-    color: white;
-    background-color: dodgerblue;
-    border-radius: 7px;
-    padding: 6px;
-
-}
-/* Fine New Task */
-
 .cross {
     font-size: small;
     color: red;
@@ -66,3 +63,42 @@ h2 {
     border-radius: 50%;
     border: red 1px solid;
 }
+/* Fine New Task */
+
+.task{
+    margin-inline: 40px;
+}
+
+
+/* Etichette */
+
+.etichetta{
+    font-size: x-small;
+    color: white;
+    border-radius: 7px;
+    padding: 6px;
+}
+
+.editorial {
+    background-color: dodgerblue;
+}
+
+.goals{
+    background-color: purple;
+}
+
+.recruiting{
+    background-color: lightseagreen;
+}
+.mobile{
+    background-color: lightsalmon;
+}
+
+.website{
+    background-color: fuchsia;
+}
+
+.sales{
+    background-color: lightgreen;
+}
+/* Fine etichette */
