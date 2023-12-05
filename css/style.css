@@ -42,6 +42,7 @@ h2 {
 }
 
 .check {
+    font-size: small;
     color: lightgreen;
     background-color: white;
     border-radius: 50%;
@@ -57,3 +58,11 @@ h2 {
 
 }
 /* Fine New Task */
+
+.cross {
+    font-size: small;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    border: red 1px solid;
+}
