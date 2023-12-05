@@ -1,5 +1,12 @@
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+}
 
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 /* navbar */
 
 h1 {
@@ -50,10 +57,11 @@ header {
 
 
 
-/* New Task */
+/* Task */
 
 h2 {
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .check {
@@ -72,11 +80,15 @@ h2 {
     border: red 1px solid;
 }
 
-.task{
+.prova{
     margin-inline: 40px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
-/* Fine New Task */
+
+.task{
+    margin-bottom: 10px;
+}
+/* Task */
 
 
 
