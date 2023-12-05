@@ -1,14 +1,20 @@
 /* navbar */
 
-nav {
+h1 {
     display: inline-block;
+    text-align: center;
 }
 
 /* Fine navbar */
 
 
+
 /* Tasti */
 
+header {
+    padding: 20px;
+    border-bottom: lightgrey 2px solid;
+}
 
 .tasto-blu {
     background-color: dodgerblue;
@@ -26,3 +32,28 @@ nav {
 }
 
 /* Fine Tasti */
+
+
+/* New Task */
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.check {
+    color: lightgreen;
+    background-color: white;
+    border-radius: 50%;
+    border: lightgreen 1px solid;
+}
+
+.editorial {
+    font-size: x-small;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 7px;
+    padding: 6px;
+
+}
+/* Fine New Task */
