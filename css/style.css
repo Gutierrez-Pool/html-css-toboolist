@@ -1,9 +1,17 @@
+
+
 /* navbar */
 
 h1 {
     display: inline-block;
-    text-align: center;
+    font-size: 3em;
+    margin-block: 0px;
 }
+
+#logo{
+    vertical-align: middle;
+}
+
 
 /* Fine navbar */
 
@@ -11,7 +19,7 @@ h1 {
     width: auto;
     background-color: white;
     border-top: #f6f8f9 50px solid;
-    border-inline: #f6f8f9 400px solid;
+    border-inline: #f6f8f9 300px solid;
     border-bottom: #f6f8f9 20px solid;
 
 }
@@ -20,7 +28,7 @@ h1 {
 
 header {
     padding: 20px;
-    border-bottom: lightgrey 2px solid;
+    border-bottom: #f6f8f9 3px solid;
 }
 
 .tasto-blu {
@@ -41,11 +49,11 @@ header {
 /* Fine Tasti */
 
 
+
 /* New Task */
 
 h2 {
     margin-top: 25px;
-    margin-bottom: 10px;
 }
 
 .check {
@@ -63,11 +71,13 @@ h2 {
     border-radius: 50%;
     border: red 1px solid;
 }
-/* Fine New Task */
 
 .task{
     margin-inline: 40px;
+    padding-bottom: 40px;
 }
+/* Fine New Task */
+
 
 
 /* Etichette */
