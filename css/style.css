@@ -1,3 +1,28 @@
-nav{
+/* navbar */
+
+nav {
     display: inline-block;
 }
+
+/* Fine navbar */
+
+
+/* Tasti */
+
+
+.tasto-blu {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.tasto-bianco {
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    padding: 8px;
+    border: gray 1px solid;
+}
+
+/* Fine Tasti */
